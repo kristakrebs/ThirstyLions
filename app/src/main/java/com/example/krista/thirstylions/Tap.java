@@ -13,7 +13,7 @@ public class Tap {
     }
 
     public Tap(Beer type){
-        inUse=true;
+        inUse=false;
         beertype=type;
     }
 
