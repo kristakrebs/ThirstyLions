@@ -23,4 +23,10 @@ public class Tap {
     public void setBeertype(Beer type){
         beertype=type;
     }
+    public boolean getInUse(){
+        return inUse;
+    }
+    public void setInUse(boolean use){
+        inUse=use;
+    }
 }
